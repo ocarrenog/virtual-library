@@ -25,25 +25,22 @@ Before you begin, ensure you have the following installed on your machine:
 1. **Clone the repository:**
 
    ```bash
-   ```bash
    git clone https://github.com/ocarrenog/virtual-library.git
    
 2. **Install dependencies:**
    Navigate into the project directory:
       
    ```bash
-   ```bash
     cd virtual-library
    
 4. **Install dependencies for the backend:**
 
    ```bash
-   ```bash
    cd backend
    npm install
 
 6. **Install dependencies for the frontend:**
-   ```bash
+   
    ```bash
    cd ../frontend
    npm install
@@ -53,13 +50,13 @@ Before you begin, ensure you have the following installed on your machine:
 1. **Configure environment variables:**
    
    Create a .env file in the backend directory with the following content:
-   ```bash
+   
    ```bash
    MONGO_URI=your_mongodb_connection_string
    PORT=5000
    
 3. **Start the backend server**
-   ```bash
+   
    ```bash
    cd backend
    npm start
@@ -67,7 +64,7 @@ Before you begin, ensure you have the following installed on your machine:
    The backend server will start on http://localhost:5000.
    
 5. **Start the frontend development server**
-   ```bash
+   
    ```bash
    cd ../frontend
    npm start
