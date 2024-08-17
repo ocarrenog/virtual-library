@@ -10,17 +10,78 @@ Virtual Library is a web application that allows users to manage a library of bo
 - **Delete Books**: Users can delete a book from the library.
 - **Search Books**: Users can search for books by title, genre, or publication year.
 
-## Technologies Used
+## Getting Started
 
-- **Frontend**: React, Tailwind CSS
-- **Backend**: Node.js, Express
-- **Database**: MongoDB
+### Prerequisites
 
-## Installation
+Before you begin, ensure you have the following installed on your machine:
 
-To run this project locally, follow these steps:
+- [Node.js](https://nodejs.org/) (v14.x or later)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+- [MongoDB](https://www.mongodb.com/) (local installation or MongoDB Atlas)
 
-1. Clone the repository:
+### Installation
+
+1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/tu-usuario/virtual-library.git
+   ```bash
+   git clone https://github.com/ocarrenog/virtual-library.git
+   
+2. **Install dependencies:**
+   Navigate into the project directory:
+      
+   cd virtual-library
+   
+4. **Install dependencies for the backend:**
+   cd backend
+   npm install
+
+5. **Install dependencies for the frontend:**
+   cd ../frontend
+   npm install
+
+### Setup
+
+1. **Configure environment variables:**
+   
+   Create a .env file in the backend directory with the following content:
+   MONGO_URI=your_mongodb_connection_string
+   PORT=5000
+   
+2. **Start the backend server**
+   cd backend
+   npm start
+   
+   The backend server will start on http://localhost:5000.
+   
+4. **Start the frontend development server**
+   cd ../frontend
+   npm start
+   
+   The frontend will start on http://localhost:5173`. (Depends on server, vite stars in port 5173)
+   
+### Usage
+
+- Adding a Book:
+
+Navigate to the "Add Book" section from the sidebar.
+Fill in the book details and click "Add Book".
+
+- Editing a Book:
+
+Go to the "Books List" section.
+Click "Edit" on the book you want to modify.
+Update the details and click "Save".
+
+- Viewing Book Details:
+
+Go to the "Books List" section.
+Click "View Details" on any book to see its full details.
+
+- Deleting a Book:
+
+Go to the "Books List" section.
+Click "Delete" on the book you want to remove.
+
+### Testing
