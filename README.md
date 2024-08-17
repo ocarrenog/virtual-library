@@ -61,6 +61,7 @@ Before you begin, ensure you have the following installed on your machine:
    cd backend
    npm start
    
+
    The backend server will start on http://localhost:5000.
    
 5. **Start the frontend development server**
