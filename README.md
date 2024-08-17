@@ -31,13 +31,20 @@ Before you begin, ensure you have the following installed on your machine:
 2. **Install dependencies:**
    Navigate into the project directory:
       
-   cd virtual-library
+   ```bash
+   ```bash
+    cd virtual-library
    
 4. **Install dependencies for the backend:**
+
+   ```bash
+   ```bash
    cd backend
    npm install
 
-5. **Install dependencies for the frontend:**
+6. **Install dependencies for the frontend:**
+   ```bash
+   ```bash
    cd ../frontend
    npm install
 
@@ -46,16 +53,22 @@ Before you begin, ensure you have the following installed on your machine:
 1. **Configure environment variables:**
    
    Create a .env file in the backend directory with the following content:
+   ```bash
+   ```bash
    MONGO_URI=your_mongodb_connection_string
    PORT=5000
    
-2. **Start the backend server**
+3. **Start the backend server**
+   ```bash
+   ```bash
    cd backend
    npm start
    
    The backend server will start on http://localhost:5000.
    
-4. **Start the frontend development server**
+5. **Start the frontend development server**
+   ```bash
+   ```bash
    cd ../frontend
    npm start
    
@@ -83,5 +96,3 @@ Click "View Details" on any book to see its full details.
 
 Go to the "Books List" section.
 Click "Delete" on the book you want to remove.
-
-### Testing
