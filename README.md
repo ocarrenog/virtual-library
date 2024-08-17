@@ -60,18 +60,16 @@ Before you begin, ensure you have the following installed on your machine:
    ```bash
    cd backend
    npm start
-   ```bash
 
-   The backend server will start on http://localhost:5000.
+The backend server will start on http://localhost:5000.
    
 5. **Start the frontend development server**
    
    ```bash
    cd ../frontend
    npm start
-   ```bash
    
-   The frontend will start on http://localhost:5173`. (Depends on server, vite stars in port 5173)
+The frontend will start on http://localhost:5173` (this port may vary if another service is already using it).
    
 ### Usage
 
