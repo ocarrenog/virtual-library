@@ -69,7 +69,7 @@ The backend server will start on http://localhost:5000.
    cd ../frontend
    npm start
    
-The frontend will start on http://localhost:5173` (this port may vary if another service is already using it).
+The frontend will start on http://localhost:5173 (this port may vary if another service is already using it).
    
 ### Usage
 
